@@ -3,7 +3,12 @@
   "license": "MIT",
   "scripts": {
     "dev": "nuxt --port 3000",
-    "local-dev": "vercel dev -A vercel.dev.json"
+    "local-dev": "vercel dev -A vercel.dev.json",
+
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
   },
   "dependencies": {
     "access-log": "^0.4.1"
